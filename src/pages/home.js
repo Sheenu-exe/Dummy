@@ -28,20 +28,20 @@ const Home = () => {
     return(
         <div className="flex flex-col h-fit">
             <div id="page1" className="page1 flex flex-col gap-y-10 justify-center items-center h-[90vh] sm:h-[85vh]">
-                <h1 className="sm:text-7xl text-5xl text-center tracking-tighter font-[Helvetica-Bold]">Bathroom Renovations,<br/> Made Easy</h1>
-                <p className="text-center text-base sm:text-lg text-gray-500">We Combine design, construction drawings, premium materials and certified <br/>contractors for all-in-one experience.</p>
+                <h1 className="sm:text-7xl text-5xl text-center tracking-tighter max-w-sm font-[Helvetica-Bold]">Bathroom Renovations,Made Easy</h1>
+                <p className="text-center text-base sm:text-lg mx-3 max-w-sm text-gray-500">We Combine design, construction drawings, premium materials and certified contractors for all-in-one experience.</p>
                 <button className="bg-black px-3 py-2 rounded-lg text-xl h-[3.5rem] text-white">Get An Estimate</button>
             </div>
             <div id="page2" className="page2 flex flex-col h-[110vh]">
                 <img className="h-[70vh] w-full object-cover" src={Bathroom} alt="" />
-                <div className="h-[40vh] my-10 sm:my-0 mx-10 sm:flex sm:justify-around grid grid-cols-2">
+                <div className="h-[40vh] my-10 sm:my-0 mx-10 gap-5 sm:flex sm:justify-around grid grid-cols-2">
                 <div className="h-full flex flex-col gap-y-4 items-center justify-center">
                     <img src={Logo1} className="sm:w-[15vw]" alt="" />
                     <p className="text-center font-semibold text-zinc-700 text-sm">"Sit back while neglected <br/> bathrooms are remade"</p>
                 </div>
                 <div className="h-full flex flex-col gap-y-4 items-center justify-center">
                     <img src={Logo2} className="sm:w-[15vw]" alt="" />
-                    <p className="text-center font-semibold text-zinc-700 text-sm">"Not like your typical <br/> general contractor"</p>
+                    <p className="text-center font-semibold text-zinc-700 text-sm">"Its Not like your typical <br/> general contractor"</p>
                 </div>
                 <div className="h-full flex flex-col gap-y-4 items-center justify-center">
                     <img src={Logo3} className="sm:w-[15vw]" alt="" />
@@ -93,7 +93,7 @@ const Home = () => {
                 <div className="sm:h-[75%] h-fit gap-y-5 sm:w-[33.3vw] flex flex-col items-center justify-around sm:px-0 px-10">
                     <p className="sm:text-4xl text-3xl sm:px-0 sm:pl-10 px-10 tracking-tighter">01.<br/>Get an Estimate Project</p>
                     <p className="text-lg px-10">Schedule a call with a Made Project Consultant</p>
-                    <img className="w-[75%]" src={Photo1} alt="" />
+                    <img className="w-[75%]" src={Photo1} alt=""/>
                 </div>
                 <div className="sm:h-[75%] h-fit gap-y-5 sm:w-[33.3vw] flex flex-col items-center justify-around sm:px-0 px-10">
                     <p className="sm:text-4xl text-3xl sm:px-0 sm:pl-10 px-10 tracking-tighter">02.<br/>Meet Your Project Consultancy Virtually</p>
@@ -131,9 +131,9 @@ const Home = () => {
                     <button className="px-7 rounded-md text-white py-3 flex w-fit items-center gap-x-2 bg-black ">Lets start a Project < FaArrowRight className="text-xl"/></button>
                 </div>
             </div>
-            <div className="h-[30vh] flex flex-col items-center justify-center bg-black">
+            <div className="h-[40vh] flex flex-col items-center justify-center bg-black">
                 <p className="text-center mb-5 text-white text-2xl ">Our Project Partners</p>
-                <div className="flex w-full items-center justify-evenly flex-wrap gap-y-2 gap-x-3">
+                <div className="flex w-full h-[25vh] items-center justify-evenly flex-wrap gap-y-2 gap-x-3">
                     <img src={WhiteLogo1}  alt="" />
                     <img src={WhiteLogo2} alt="" />
                     <img src={WhiteLogo3} alt="" />
