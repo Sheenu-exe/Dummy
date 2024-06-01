@@ -26,7 +26,7 @@ import Logo from "../assets/logos/mainwhite.svg"
 
 const Home = () => {
     return(
-        <div className="flex flex-col h-fit">
+        <div className="flex flex-col h-fit overflow-x-hidden">
             <div id="page1" className="page1 flex flex-col gap-y-10 justify-center items-center h-[90vh] sm:h-[85vh]">
                 <h1 className="sm:text-7xl text-5xl text-center tracking-tighter max-w-sm font-[Helvetica-Bold]">Bathroom Renovations,Made Easy</h1>
                 <p className="text-center text-base sm:text-lg mx-3 max-w-sm text-gray-500">We Combine design, construction drawings, premium materials and certified contractors for all-in-one experience.</p>
