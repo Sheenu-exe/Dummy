@@ -145,7 +145,7 @@ const Home = () => {
                 <div className="h-[90%] mx-24 gap-y-14 justify-evenly items-center flex sm:flex-row flex-col">
                     <div className="h-[90%] hovercard sm:w-[30%] w-[90vw] flex flex-col justify-center items-center gap-y-1 relative group">
                         <img className="w-[90%] transition duration-300 ease-in-out brightness-50 group-hover:brightness-100 rounded-lg" src={ModernCollection} alt="" />
-                        <div  className="absolute inset-0 group-hover:text-black flex transition-all group-hover:-bottom-56 flex-col items-center justify-center text-white">
+                        <div  className="absolute inset-0 group-hover:text-black flex transition-all group-hover:-bottom-56 sm:group-hover:-bottom-56 flex-col items-center justify-center text-white">
                             <p className="text-3xl font-semibold">Modern Collections</p>
                         </div>
                         <div className="absolute text-gray-100 bottom-16 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
@@ -154,7 +154,7 @@ const Home = () => {
                     </div>
                     <div className="h-[90%] hovercard sm:w-[30%] w-[90vw] flex flex-col justify-center items-center gap-y-1 relative group">
                         <img className="w-[90%] transition duration-300 ease-in-out brightness-50 group-hover:brightness-100 rounded-lg" src={HeritageCollection} alt="" />
-                        <div  className="absolute inset-0 group-hover:text-black flex transition-all group-hover:-bottom-56 flex-col items-center justify-center text-white">
+                        <div  className="absolute inset-0 group-hover:text-black flex transition-all group-hover:-bottom-52 sm:group-hover:-bottom-56 flex-col items-center justify-center text-white">
                             <p className="text-3xl font-semibold">Heritage Collections</p>
                         </div>
                         <div className="absolute text-gray-100 bottom-16 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
@@ -163,7 +163,7 @@ const Home = () => {
                     </div>
                     <div className="h-[90%] hovercard sm:w-[30%] w-[90vw] flex flex-col justify-center items-center gap-y-1 relative group">
                         <img className="w-[90%] transition duration-300 ease-in-out brightness-50 group-hover:brightness-100 rounded-lg" src={ArtisansCollection} alt="" />
-                        <div className="absolute inset-0 group-hover:text-black transition-all flex group-hover:-bottom-56 flex-col items-center justify-center text-white">
+                        <div className="absolute inset-0 group-hover:text-black transition-all flex group-hover:-bottom-56 sm:group-hover:-bottom-56 flex-col items-center justify-center text-white">
                             <p className="text-3xl font-semibold">Artisans Collections</p>
                         </div>
                         <div className="absolute text-gray-100 bottom-16 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
